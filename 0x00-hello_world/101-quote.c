@@ -3,8 +3,8 @@
 /**
 * main - main block
 * description : this code will print the value in write command
-* main: main function executable code goes in here
-* return: 0 always zero
+* Main : main function executable code goes in here
+* Return: 0 always zero
 */
 int main(void)
 {
