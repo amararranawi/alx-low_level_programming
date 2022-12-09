@@ -2,9 +2,9 @@
 #include <unistd.h>
 /**
 * main - main block
-* description : executable
-* main : executable code goes in here
-* return : 0
+* description : this code will print the value in write command
+* main: main function executable code goes in here
+* return: 0 always zero
 */
 int main(void)
 {
