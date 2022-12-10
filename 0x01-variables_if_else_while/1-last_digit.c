@@ -22,7 +22,7 @@ printf("and is greater than 5\n");
 }
 else if (lastn == 0)
 {
-printf("and is 0");
+printf("and is 0\n");
 }
 else
 {
