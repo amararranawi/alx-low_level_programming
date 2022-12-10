@@ -7,11 +7,11 @@
 */
 int main(void) /* main void return executable codes*/
 {
-char alp;
+char alp = 'a';
 for (alp = a; alp <= z; ++alp) /* for will print range*/
 {
 putchar(alp); /* print statement*/
-putchar("\n");
+putchar('\n');
 }
 return (0);
 }
