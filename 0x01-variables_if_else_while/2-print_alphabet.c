@@ -8,10 +8,10 @@
 int main(void) /* main void return executable codes*/
 {
 char alp = 'a';
-for (alp = a; alp <= z; ++alp) /* for will print range*/
+while (alp <= z) /* for will print range*/
 {
-putchar(alp); /* print statement*/
-putchar('\n');
+putchar("%c/n", alp); /* print statement*/
+alp++;;
 }
 return (0);
 }
