@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+* main: main function
+* return: terminate main function
+* description: print alphabet in lower case
+*/
+int main(void) /* contain executable codes*/
+{
+char alp;
+for (alp = a; alp <=z; ++alp)
+{
+putchar(alp);
+putchar("\n");
+}
+return (0);
+}
