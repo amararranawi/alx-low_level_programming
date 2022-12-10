@@ -8,10 +8,12 @@
 int main(void) /* main void return executable codes*/
 {
 char alp = 'a';
-while (alp <= z) /* for will print range*/
+ clrscr();
+for (alp <= 'z') /* for will print range*/
 {
-putchar("%c/n", alp); /* print statement*/
-alp++;;
+putchar(alp); /* print statement*/
+putchar("\n");
+alp++;
 }
 return (0);
 }
