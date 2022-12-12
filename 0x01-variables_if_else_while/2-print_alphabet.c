@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
-*main -main block will execute for
+* main - prints the alphabets in lower case.
 * main: main function
-* return: terminate main function
-* description: print alphabet in lower case
+* Return: Always 0.
+* description -  print alphabet in lower case
 */
-int main(void) /* main void return executable codes*/
+int main(void) /* main void return executable codes */
 {
 char character;
 for (character = 'a'; character <= 'z'; character++) /* for will print range*/
