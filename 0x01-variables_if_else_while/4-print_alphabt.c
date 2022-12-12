@@ -8,11 +8,11 @@
 int main(void) /* main void return executable codes */
 {
 char character;
-char CHARACTER;
 for (character = 'a'; character <= 'z'; character++) /* f\or will print range*/
+{
+if (character != 'e' && character != 'q')
 putchar(character); /* print statement*/
-for (CHARACTER = 'A'; CHARACTER <= 'Z'; CHARACTER++) /* f\or will print range*/
-putchar(CHARACTER); /* print statement*/
 putchar('\n');
+}
 return (0);
 }
