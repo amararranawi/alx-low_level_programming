@@ -7,13 +7,9 @@
 */
 int main(void) /* main void return executable codes*/
 {
-char alp = 'a';
- clrscr();
-for (alp <= 'z') /* for will print range*/
-{
-putchar(alp); /* print statement*/
-putchar("\n");
-alp++;
-}
+char character;
+for (character = 'a'; character <= 'z'; character++) /* for will print range*/
+putchar(character); /* print statement*/
+putchar('\n');
 return (0);
 }
