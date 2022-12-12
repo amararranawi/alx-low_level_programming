@@ -12,7 +12,7 @@ for (character = 'a'; character <= 'z'; character++) /* f\or will print range*/
 {
 if (character != 'e' && character != 'q')
 putchar(character); /* print statement*/
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
